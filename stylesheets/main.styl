@@ -1,0 +1,88 @@
+stretch()
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
+
+cloudify()
+  position absolute
+  bottom 0
+
+animate(name, duration, timing = linear, iteration = infinite)
+  -webkit-animation-name: name
+  -moz-animation-name: name
+  animation-name: name
+
+  -webkit-animation-duration: duration;
+  -moz-animation-duration: duration;
+  animation-duration: duration;
+
+  -webkit-animation-timing-function: timing;
+  -moz-animation-timing-function: timing;
+  animation-timing-function: timing;
+
+  -webkit-animation-iteration-count: iteration;
+  -moz-animation-iteration-count: iteration;
+  animation-iteration-count: iteration;
+
+@keyframes cloud1
+  0%
+    left 0
+  100%
+    left -640px
+
+@keyframes cloud2
+  0%
+    left 0
+  100%
+    left -1524px
+
+@keyframes cloud3
+  0%
+    left 0
+  100%
+    left -2000px
+
+html, body
+  margin  0
+  padding 0
+
+html
+  background #000
+  color      #fff
+
+body
+  width  640px
+  margin 0 auto
+
+#viewport, #pita
+  width  640px
+  height 480px
+  position relative
+  overflow hidden
+
+#mainmenu
+  stretch()
+  background #c93614
+
+#clouds1
+  cloudify()
+  background url(../images/title/clouds-1.gif)
+  animate: cloud1 5s linear
+  width 1280px
+  height 234px
+
+#clouds2
+  cloudify()
+  background url(../images/title/clouds-2.gif)
+  animate: cloud2 20s linear
+  width 3046px
+  height 331px
+
+#clouds3
+  cloudify()
+  background url(../images/title/clouds-3.gif)
+  animate: cloud3 50s linear
+  width 4000px
+  height 477px

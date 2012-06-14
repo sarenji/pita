@@ -1,0 +1,220 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #000;
+  color: #fff;
+}
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+#viewport,
+#pita {
+  width: 640px;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+#mainmenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #c93614;
+}
+#clouds1 {
+  position: absolute;
+  bottom: 0;
+  background: url("../images/title/clouds-1.gif");
+  -webkit-animation-name: cloud1;
+  -moz-animation-name: cloud1;
+  animation-name: cloud1;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  width: 1280px;
+  height: 234px;
+}
+#clouds2 {
+  position: absolute;
+  bottom: 0;
+  background: url("../images/title/clouds-2.gif");
+  -webkit-animation-name: cloud2;
+  -moz-animation-name: cloud2;
+  animation-name: cloud2;
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  width: 3046px;
+  height: 331px;
+}
+#clouds3 {
+  position: absolute;
+  bottom: 0;
+  background: url("../images/title/clouds-3.gif");
+  -webkit-animation-name: cloud3;
+  -moz-animation-name: cloud3;
+  animation-name: cloud3;
+  -webkit-animation-duration: 50s;
+  -moz-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  width: 4000px;
+  height: 477px;
+}
+@-moz-keyframes cloud1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -640px;
+  }
+}
+@-webkit-keyframes cloud1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -640px;
+  }
+}
+@-o-keyframes cloud1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -640px;
+  }
+}
+@-ms-keyframes cloud1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -640px;
+  }
+}
+@keyframes cloud1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -640px;
+  }
+}
+@-moz-keyframes cloud2 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1524px;
+  }
+}
+@-webkit-keyframes cloud2 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1524px;
+  }
+}
+@-o-keyframes cloud2 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1524px;
+  }
+}
+@-ms-keyframes cloud2 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1524px;
+  }
+}
+@keyframes cloud2 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1524px;
+  }
+}
+@-moz-keyframes cloud3 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -2000px;
+  }
+}
+@-webkit-keyframes cloud3 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -2000px;
+  }
+}
+@-o-keyframes cloud3 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -2000px;
+  }
+}
+@-ms-keyframes cloud3 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -2000px;
+  }
+}
+@keyframes cloud3 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -2000px;
+  }
+}
